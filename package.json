@@ -5,7 +5,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "scripts": {
+    "start": "web-dev-server --node-resolve --open --watch"
+  },
   "dependencies": {
     "typescript": "^5.1.5"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.4.0"
   }
 }
