@@ -33,7 +33,7 @@ abstract class House implements IHouse {
 
   constructor(protected key: IKey) {}
 
-  comeIn(person: IPerson) {
+  comeIn(person: IPerson): void {
     if (this.door) {
       this.tenants.push(person);
       console.log("Person coming in");
